@@ -712,6 +712,31 @@ line {
     <!-- <path d="M-5,45 L2,45"/> -->
     <!-- <path d="M 70,25.5 L 66,25.5"/> -->
   </g>
+  <g s:type="nand4" transform="translate(450, 400)" s:width="66" s:height="40">
+    <s:alias val="$nand4"/>
+     <s:alias val="$_nand4"/>
+       <path d="M0,0 L0,25 L15,25 A15 12.5 0 0 0 15,0 Z" class="$cell_id"/>
+    <circle cx="34" cy="12.5" r="3" class="$cell_id"/>
+
+    <g s:x="0" s:y="5" s:pid="A"/>
+    <g s:x="0" s:y="10" s:pid="B"/>
+    <g s:x="0" s:y="15" s:pid="C"/>
+    <g s:x="0" s:y="20" s:pid="D"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
+
+  <g s:type="nor4" transform="translate(500, 400)" s:width="66" s:height="40">
+    <s:alias val="$nor4"/>
+     <s:alias val="$nor4"/>
+        <path d="M0,0 A30 25 0 0 1 0,25 A30 25 0 0 0 30,12.5 A30 25 0 0 0 0,0" class="$cell_id"/>
+    <circle cx="33" cy="12.5" r="3" class="$cell_id"/>
+    
+    <g s:x="2" s:y="5" s:pid="A"/>
+    <g s:x="4" s:y="10" s:pid="B"/>
+    <g s:x="4" s:y="15" s:pid="C"/>
+    <g s:x="2" s:y="20" s:pid="D"/>
+    <g s:x="36" s:y="12.5" s:pid="Y"/>
+  </g>
 
   <g s:type="generic" transform="translate(550,250)" s:width="30" s:height="40">
 
@@ -731,5 +756,6 @@ line {
       <text x="-3" y="-4" class="inputPortLabel $cell_id">in1</text>
     </g>
   </g>
+
 
 </svg>
